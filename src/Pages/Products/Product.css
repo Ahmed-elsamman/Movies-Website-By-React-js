@@ -1,0 +1,83 @@
+.card-amin {
+    transition: transform 0.3s ease-in-out;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  
+  .card-amin:hover {
+    transform: scale(1.05) translateY(-10px);
+    /* box-shadow: 0px 0px 10px rgba(196, 166, 33, 0.5); */
+  }
+  
+  .card-amin .p-5 {
+    padding: 20px;
+  }
+  
+  .card-amin h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-amin p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .card-amin a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .card-amin a:hover {
+    color: #23527c;
+  }
+  
+  .card-amin .inline-flex {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card-amin .inline-flex:hover {
+    background-color: #23527c;
+  }
+  
+  .card-amin svg {
+    margin-left: 10px;
+    fill: #fff;
+  }
+
+
+  /* ############################# */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-btn {
+    background-color: #f1f1f1;
+    border: none;
+    color: #333;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .page-btn.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .page-btn:hover {
+    background-color: #ddd;
+  }
